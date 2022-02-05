@@ -6,45 +6,426 @@ uid: 5c50bb59-3e16-b05f-f333-b4588cf970fb
 
 The notes below represent summaries of the lectures as written by Professor Auroux to the recitation instructors.
 
-| LEC # | TOPICS | LECTURE NOTES |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**I. Vectors and matrices**{{< /td-colspan >}} |||
-| 0 | Vectors | Week 1 summary ([PDF]({{< baseurl >}}/resources/lec_week1)) |
-| 1 | Dot product |
-| 2 | Determinants; cross product |
-| 3 | Matrices; inverse matrices | Week 2 summary ([PDF]({{< baseurl >}}/resources/lec_week2)) |
-| 4 | Square systems; equations of planes |
-| 5 | Parametric equations for lines and curves |
-| 6 |  {{< br >}}{{< br >}} Velocity, acceleration {{< br >}}{{< br >}} Kepler's second law {{< br >}}{{< br >}}  | Week 3 summary ([PDF]({{< baseurl >}}/resources/lec_week3)) |
-| 7 | Review |
-| {{< td-colspan 3 >}}**II. Partial derivatives**{{< /td-colspan >}} |||
-| 8 | Level curves; partial derivatives; tangent plane approximation | Week 4 summary ([PDF]({{< baseurl >}}/resources/lec_week4)) |
-| 9 | Max-min problems; least squares |
-| 10 | Second derivative test; boundaries and infinity |
-| 11 | Differentials; chain rule | Week 5 summary ([PDF]({{< baseurl >}}/resources/lec_week5)) |
-| 12 | Gradient; directional derivative; tangent plane |
-| 13 | Lagrange multipliers |
-| 14 | Non-independent variables | Week 6 summary ([PDF]({{< baseurl >}}/resources/lec_week6)) |
-| 15 | Partial differential equations; review |
-| {{< td-colspan 3 >}}**III. Double integrals and line integrals in the plane**{{< /td-colspan >}} |||
-| 16 | Double integrals | Week 7 summary ([PDF]({{< baseurl >}}/resources/lec_week7)) |
-| 17 | Double integrals in polar coordinates; applications |
-| 18 | Change of variables | Week 8 summary ([PDF]({{< baseurl >}}/resources/lec_week8)) |
-| 19 | Vector fields and line integrals in the plane |
-| 20 | Path independence and conservative fields |
-| 21 | Gradient fields and potential functions | Week 9 summary ([PDF]({{< baseurl >}}/resources/lec_week9)) |
-| 22 | Green's theorem |
-| 23 | Flux; normal form of Green's theorem |
-| 24 | Simply connected regions; review | Week 10 summary ([PDF]({{< baseurl >}}/resources/lec_week10)) |
-| {{< td-colspan 3 >}}**IV. Triple integrals and surface integrals in 3-space**{{< /td-colspan >}} |||
-| 25 | Triple integrals in rectangular and cylindrical coordinates | Week 10 summary ([PDF]({{< baseurl >}}/resources/lec_week10)) |
-| 26 | Spherical coordinates; surface area | Week 11 summary ([PDF]({{< baseurl >}}/resources/lec_week11)) |
-| 27 | Vector fields in 3D; surface integrals and flux |
-| 28 | Divergence theorem |
-| 29 | Divergence theorem (cont.): applications and proof | Week 12 summary ([PDF]({{< baseurl >}}/resources/lec_week12)) |
-| 30 | Line integrals in space, curl, exactness and potentials | Week 13 summary ([PDF]({{< baseurl >}}/resources/lec_week13)) |
-| 31 | Stokes' theorem |
-| 32 | Stokes' theorem (cont.); review |
-| 33 |  {{< br >}}{{< br >}} Topological considerations {{< br >}}{{< br >}} Maxwell's equations {{< br >}}{{< br >}}  | Week 14 summary ([PDF]({{< baseurl >}}/resources/lec_week14)) |
-| 34 | Final review |
-| 35 | Final review (cont.)
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**I. Vectors and matrices**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+Vectors
+{{< tdclose >}}
+{{< tdopen >}}
+Week 1 summary ([PDF]({{< baseurl >}}/resources/lec_week1))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Dot product
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Determinants; cross product
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Matrices; inverse matrices
+{{< tdclose >}}
+{{< tdopen >}}
+Week 2 summary ([PDF]({{< baseurl >}}/resources/lec_week2))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Square systems; equations of planes
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Parametric equations for lines and curves
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Velocity, acceleration
+
+Kepler's second law
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Week 3 summary ([PDF]({{< baseurl >}}/resources/lec_week3))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Review
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**II. Partial derivatives**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Level curves; partial derivatives; tangent plane approximation
+{{< tdclose >}}
+{{< tdopen >}}
+Week 4 summary ([PDF]({{< baseurl >}}/resources/lec_week4))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Max-min problems; least squares
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Second derivative test; boundaries and infinity
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Differentials; chain rule
+{{< tdclose >}}
+{{< tdopen >}}
+Week 5 summary ([PDF]({{< baseurl >}}/resources/lec_week5))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Gradient; directional derivative; tangent plane
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Lagrange multipliers
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Non-independent variables
+{{< tdclose >}}
+{{< tdopen >}}
+Week 6 summary ([PDF]({{< baseurl >}}/resources/lec_week6))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Partial differential equations; review
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**III. Double integrals and line integrals in the plane**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Double integrals
+{{< tdclose >}}
+{{< tdopen >}}
+Week 7 summary ([PDF]({{< baseurl >}}/resources/lec_week7))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Double integrals in polar coordinates; applications
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Change of variables
+{{< tdclose >}}
+{{< tdopen >}}
+Week 8 summary ([PDF]({{< baseurl >}}/resources/lec_week8))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Vector fields and line integrals in the plane
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Path independence and conservative fields
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Gradient fields and potential functions
+{{< tdclose >}}
+{{< tdopen >}}
+Week 9 summary ([PDF]({{< baseurl >}}/resources/lec_week9))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Green's theorem
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Flux; normal form of Green's theorem
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Simply connected regions; review
+{{< tdclose >}}
+{{< tdopen >}}
+Week 10 summary ([PDF]({{< baseurl >}}/resources/lec_week10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**IV. Triple integrals and surface integrals in 3-space**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Triple integrals in rectangular and cylindrical coordinates
+{{< tdclose >}}
+{{< tdopen >}}
+Week 10 summary ([PDF]({{< baseurl >}}/resources/lec_week10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Spherical coordinates; surface area
+{{< tdclose >}}
+{{< tdopen >}}
+Week 11 summary ([PDF]({{< baseurl >}}/resources/lec_week11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+27
+{{< tdclose >}}
+{{< tdopen >}}
+Vector fields in 3D; surface integrals and flux
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+28
+{{< tdclose >}}
+{{< tdopen >}}
+Divergence theorem
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+29
+{{< tdclose >}}
+{{< tdopen >}}
+Divergence theorem (cont.): applications and proof
+{{< tdclose >}}
+{{< tdopen >}}
+Week 12 summary ([PDF]({{< baseurl >}}/resources/lec_week12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+30
+{{< tdclose >}}
+{{< tdopen >}}
+Line integrals in space, curl, exactness and potentials
+{{< tdclose >}}
+{{< tdopen >}}
+Week 13 summary ([PDF]({{< baseurl >}}/resources/lec_week13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+31
+{{< tdclose >}}
+{{< tdopen >}}
+Stokes' theorem
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+32
+{{< tdclose >}}
+{{< tdopen >}}
+Stokes' theorem (cont.); review
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+33
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Topological considerations
+
+Maxwell's equations
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Week 14 summary ([PDF]({{< baseurl >}}/resources/lec_week14))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+34
+{{< tdclose >}}
+{{< tdopen >}}
+Final review
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+35
+{{< tdclose >}}
+{{< tdopen >}}
+Final review (cont.)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

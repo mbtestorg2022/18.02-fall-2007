@@ -10,45 +10,585 @@ Listed in the table below are reading assignments for each lecture session.
 
 "Notes" refers to the "[18.02 Supplementary Notes and Problems]({{< baseurl >}}/pages/readings/supp_notes)" written by Prof. Arthur Mattuck.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**I. Vectors and matrices**{{< /td-colspan >}} |||
-| 0 | Vectors | Text: Section 12.1 |
-| 1 | Dot product | Text: Section 12.2 |
-| 2 | Determinants; cross product |  {{< br >}}{{< br >}} Text: Section 12.3 {{< br >}}{{< br >}} Notes: Section D {{< br >}}{{< br >}}  |
-| 3 | Matrices; inverse matrices | Notes: Sections M.1 and M.2 |
-| 4 | Square systems; equations of planes |  {{< br >}}{{< br >}} Text: Pages 798-800 {{< br >}}{{< br >}} Notes: Section M.4 {{< br >}}{{< br >}}  |
-| 5 | Parametric equations for lines and curves | Text: Sections 12.4 and 10.4 |
-| 6 |  {{< br >}}{{< br >}} Velocity, acceleration {{< br >}}{{< br >}} Kepler's second law {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Text: Section 12.5, page 818 {{< br >}}{{< br >}} Notes: Section K {{< br >}}{{< br >}}  |
-| 7 | Review |  |
-| {{< td-colspan 3 >}}**II. Partial derivatives**{{< /td-colspan >}} |||
-| 8 | Level curves; partial derivatives; tangent plane approximation |  {{< br >}}{{< br >}} Text: Sections 13.2 and 13.4 {{< br >}}{{< br >}} Notes: Section TA {{< br >}}{{< br >}}  |
-| 9 | Max-min problems; least squares |  {{< br >}}{{< br >}} Text: Pages 878-881, 884-885 {{< br >}}{{< br >}} Notes: Section LS {{< br >}}{{< br >}}  |
-| 10 | Second derivative test; boundaries and infinity |  {{< br >}}{{< br >}} Text: Section 13.10, through page 930 {{< br >}}{{< br >}} Notes: Section SD {{< br >}}{{< br >}}  |
-| 11 | Differentials; chain rule | Text: Sections 13.6-13.7 |
-| 12 | Gradient; directional derivative; tangent plane | Text: Section 13.8 |
-| 13 | Lagrange multipliers | Text: Section 13.9, through page 922 |
-| 14 | Non-independent variables | Notes: Section N |
-| 15 | Partial differential equations; review | Notes: Section P |
-| {{< td-colspan 3 >}}**III. Double integrals and line integrals in the plane**{{< /td-colspan >}} |||
-| 16 | Double integrals |  {{< br >}}{{< br >}} Text: Section 14.1-14.3 {{< br >}}{{< br >}} Notes: Section I.1 {{< br >}}{{< br >}}  |
-| 17 | Double integrals in polar coordinates; applications |  {{< br >}}{{< br >}} Text: Sections 14.4-14.5 {{< br >}}{{< br >}} Notes: Section I.2 {{< br >}}{{< br >}}  |
-| 18 | Change of variables |  {{< br >}}{{< br >}} Text: Section 14.9 {{< br >}}{{< br >}} Notes: Section CV {{< br >}}{{< br >}}  |
-| 19 | Vector fields and line integrals in the plane |  {{< br >}}{{< br >}} Text: Section 15.2 {{< br >}}{{< br >}} Notes: Section V1 {{< br >}}{{< br >}}  |
-| 20 | Path independence and conservative fields | Text: Section 15.3 |
-| 21 | Gradient fields and potential functions | Notes: Section V2 |
-| 22 | Green's theorem | Text: Section 15.4 |
-| 23 | Flux; normal form of Green's theorem | Notes: Sections V3 and V4 |
-| 24 | Simply connected regions; review | Notes: Section V5 |
-| {{< td-colspan 3 >}}**IV. Triple integrals and surface integrals in 3-space**{{< /td-colspan >}} |||
-| 25 | Triple integrals in rectangular and cylindrical coordinates |  {{< br >}}{{< br >}} Text: Sections 12.8, 14.6, and 14.7 {{< br >}}{{< br >}} Notes: Section I.3 {{< br >}}{{< br >}}  |
-| 26 | Spherical coordinates; surface area |  {{< br >}}{{< br >}} Text: Section 14.7 {{< br >}}{{< br >}} Notes: Sections I.4, CV.4, and G {{< br >}}{{< br >}}  |
-| 27 | Vector fields in 3D; surface integrals and flux | Notes: Sections V8 and V9 |
-| 28 | Divergence theorem |  {{< br >}}{{< br >}} Text: Section 15.6 {{< br >}}{{< br >}} Notes: Section V10 {{< br >}}{{< br >}}  |
-| 29 | Divergence theorem (cont.): applications and proof |  {{< br >}}{{< br >}} Text: Section 15.6, Pages 1054-1055 {{< br >}}{{< br >}} Notes: Section V10 {{< br >}}{{< br >}}  |
-| 30 | Line integrals in space, curl, exactness and potentials |  {{< br >}}{{< br >}} Text: Pages 1017-1018 {{< br >}}{{< br >}} Notes: Sections V11 and V12 {{< br >}}{{< br >}}  |
-| 31 | Stokes' theorem |  {{< br >}}{{< br >}} Text: Section 15.7 {{< br >}}{{< br >}} Notes: Section V13 {{< br >}}{{< br >}}  |
-| 32 | Stokes' theorem (cont.); review |  |
-| 33 |  {{< br >}}{{< br >}} Topological considerations {{< br >}}{{< br >}} Maxwell's equations {{< br >}}{{< br >}}  | Notes: Sections V14 and V15 |
-| 34 | Final review |  |
-| 35 | Final review (cont.) |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**I. Vectors and matrices**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+0
+{{< tdclose >}}
+{{< tdopen >}}
+Vectors
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Section 12.1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Dot product
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Section 12.2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Determinants; cross product
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 12.3
+
+Notes: Section D
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Matrices; inverse matrices
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Sections M.1 and M.2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Square systems; equations of planes
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Pages 798-800
+
+Notes: Section M.4
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Parametric equations for lines and curves
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Sections 12.4 and 10.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Velocity, acceleration
+
+Kepler's second law
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 12.5, page 818
+
+Notes: Section K
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Review
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**II. Partial derivatives**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Level curves; partial derivatives; tangent plane approximation
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Sections 13.2 and 13.4
+
+Notes: Section TA
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Max-min problems; least squares
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Pages 878-881, 884-885
+
+Notes: Section LS
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Second derivative test; boundaries and infinity
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 13.10, through page 930
+
+Notes: Section SD
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Differentials; chain rule
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Sections 13.6-13.7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Gradient; directional derivative; tangent plane
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Section 13.8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Lagrange multipliers
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Section 13.9, through page 922
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Non-independent variables
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Section N
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Partial differential equations; review
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Section P
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**III. Double integrals and line integrals in the plane**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Double integrals
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 14.1-14.3
+
+Notes: Section I.1
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Double integrals in polar coordinates; applications
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Sections 14.4-14.5
+
+Notes: Section I.2
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Change of variables
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 14.9
+
+Notes: Section CV
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Vector fields and line integrals in the plane
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 15.2
+
+Notes: Section V1
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Path independence and conservative fields
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Section 15.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Gradient fields and potential functions
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Section V2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Green's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+Text: Section 15.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Flux; normal form of Green's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Sections V3 and V4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Simply connected regions; review
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Section V5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**IV. Triple integrals and surface integrals in 3-space**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Triple integrals in rectangular and cylindrical coordinates
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Sections 12.8, 14.6, and 14.7
+
+Notes: Section I.3
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Spherical coordinates; surface area
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 14.7
+
+Notes: Sections I.4, CV.4, and G
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+27
+{{< tdclose >}}
+{{< tdopen >}}
+Vector fields in 3D; surface integrals and flux
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Sections V8 and V9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+28
+{{< tdclose >}}
+{{< tdopen >}}
+Divergence theorem
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 15.6
+
+Notes: Section V10
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+29
+{{< tdclose >}}
+{{< tdopen >}}
+Divergence theorem (cont.): applications and proof
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 15.6, Pages 1054-1055
+
+Notes: Section V10
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+30
+{{< tdclose >}}
+{{< tdopen >}}
+Line integrals in space, curl, exactness and potentials
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Pages 1017-1018
+
+Notes: Sections V11 and V12
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+31
+{{< tdclose >}}
+{{< tdopen >}}
+Stokes' theorem
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Text: Section 15.7
+
+Notes: Section V13
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+32
+{{< tdclose >}}
+{{< tdopen >}}
+Stokes' theorem (cont.); review
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+33
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Topological considerations
+
+Maxwell's equations
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Notes: Sections V14 and V15
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+34
+{{< tdclose >}}
+{{< tdopen >}}
+Final review
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+35
+{{< tdclose >}}
+{{< tdopen >}}
+Final review (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
