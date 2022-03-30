@@ -4,6 +4,7 @@ description: Supplementary notes on least squares interpolation, the least-squar
   line, and fitting curves by least squares.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-02-multivariable-calculus-fall-2007/1f1dc7085b5af1c44b692f037b2810f9_least_sq_intrpol.pdf
 file_type: application/pdf
+parent_uid: 16819b09-677c-9716-4136-acd1fd60474c
 resourcetype: Document
 title: LS. Least Squares Interpolation
 uid: 1f1dc708-5b5a-f1c4-4b69-2f037b2810f9

@@ -5,6 +5,7 @@ description: Lecture summary for Week 10. Topics include triple integrals in rec
   and applications.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-02-multivariable-calculus-fall-2007/f7eb65206a728a6010805ff4a8421312_lec_week10.pdf
 file_type: application/pdf
+parent_uid: 5c50bb59-3e16-b05f-f333-b4588cf970fb
 resourcetype: Document
 title: Week 10 Summary
 uid: f7eb6520-6a72-8a60-1080-5ff4a8421312

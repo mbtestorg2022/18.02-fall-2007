@@ -5,6 +5,7 @@ description: Supplementary notes on limits in iterated integrals, double integra
   in rectangular and cylindrical coordinates, and spherical coordinates.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-02-multivariable-calculus-fall-2007/7e2115bc8fe1e94653da9c8553954f47_lim_itratd_intgr.pdf
 file_type: application/pdf
+parent_uid: 16819b09-677c-9716-4136-acd1fd60474c
 resourcetype: Document
 title: I. Limits in Iterated Integrals
 uid: 7e2115bc-8fe1-e946-53da-9c8553954f47
